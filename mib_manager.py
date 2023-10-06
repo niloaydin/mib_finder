@@ -39,3 +39,5 @@ def save_mib_dictionary(path):
 
     with open(f"{path}/previous_mib_state.json", "w") as file:
         json.dump(mib_dict, file, indent=4)
+
+print("AAAAA")
