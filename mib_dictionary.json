@@ -1,22 +1,108 @@
 {
     "version": 1,
     "mibs": {
-        ".1.3.6.1.4.1.30065.1.2759": "arista_eos",
-        ".1.3.6.1.4.1.9.1.2804": "cisco_iosxe",
-        ".1.3.6.1.4.1.9.1.1537": "cisco_iosxe",
-        ".1.3.6.1.4.1.9.1.2264": "cisco_iosxr",
-        ".1.3.6.1.4.1.9.1.696": "cisco_ios",
-        ".1.3.6.1.4.1.9.1.1745": "cisco_iosxe",
-        ".1.3.6.1.4.1.9.1.2494": "cisco_iosxe",
-        ".1.3.6.1.4.1.9.12.3.1.3.2364": "cisco_nxos",
-        ".1.3.6.1.4.1.9.12.3.1.3.1354": "cisco_nxos",
-        ".1.3.6.1.4.1.2636.1.1.1.2.108": "juniper_junos",
-        ".1.3.6.1.4.1.14823.1.1.50": "aruba_arubaos",
-        ".1.3.6.1.4.1.14823.1.1.42": "aruba_arubaos",
-        ".1.3.6.1.4.1.2011.2.62.2.3": "huawei_NE40E",
-        ".1.3.6.1.4.1.2011.2.62.2.5": "huawei_NE40E",
-        ".1.3.6.1.4.1.11.2.3.7.11.136": "hp_comware",
-        ".1.3.6.1.4.1.25506.11.1.102": "hp_comware",
-        ".1.3.6.1.4.1.25461.2.3.36": "paloalto_panos"
+        ".1.3.6.1.4.1.30065.1.2759":{
+            "name": "arista_eos",
+            "vendor": "Arista",
+            "platform":"EOS",
+            "serial_no": ""
+        },
+        ".1.3.6.1.4.1.9.1.2804": {
+            "name": "cisco_iosxe",
+            "vendor": "Cisco",
+            "platform": "XE",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1"
+        },
+        ".1.3.6.1.4.1.9.1.1537": {
+            "name": "cisco_iosxe",
+            "vendor": "Cisco",
+            "platform": "XE",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1"
+        },
+        ".1.3.6.1.4.1.9.1.2264": {
+            "name": "cisco_iosxr",
+            "vendor": "Cisco",
+            "platform": "XR",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1"
+        },
+        ".1.3.6.1.4.1.9.1.696": {
+            "name": "cisco_ios",
+            "vendor": "Cisco",
+            "platform": "IOS",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1001"
+        },
+        ".1.3.6.1.4.1.9.1.1745": {
+            "name": "cisco_iosxe",
+            "vendor": "Cisco",
+            "platform": "XE",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1"
+        },
+        ".1.3.6.1.4.1.9.1.2494": {
+            "name": "cisco_iosxe",
+            "vendor": "Cisco",
+            "platform": "XE",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1"
+        },
+        ".1.3.6.1.4.1.9.12.3.1.3.2364": {
+            "name": "cisco_nxos",
+            "vendor": "",
+            "platform": "",
+            "serial_no": ""
+        },
+        ".1.3.6.1.4.1.9.12.3.1.3.1354": {
+            "name": "cisco_nxos",
+            "vendor": "Cisco",
+            "platform": "NXOS",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.10"
+        },
+        ".1.3.6.1.4.1.2636.1.1.1.2.108": {
+            "name": "juniper_junos",
+            "vendor": "",
+            "platform": "",
+            "serial_no": ""
+        },
+        ".1.3.6.1.4.1.14823.1.1.50": {
+            "name": "aruba_arubaos",
+            "vendor": "Aruba",
+            "platform": "OS",
+            "serial_no": "1.3.6.1.4.1.14823.2.2.1.2.1.11.0"
+        },
+        ".1.3.6.1.4.1.14823.1.1.42": {
+            "name": "aruba_arubaos",
+            "vendor": "Aruba",
+            "platform": "OS",
+            "serial_no": "1.3.6.1.4.1.14823.2.2.1.2.1.11.0"
+        },
+        ".1.3.6.1.4.1.2011.2.62.2.3": {
+            "name": "huawei_NE40E",
+            "vendor": "Huawei",
+            "platform": "NE40E",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.16777216"
+        },
+        ".1.3.6.1.4.1.2011.2.62.2.5": {
+            "name": "huawei_NE40E",
+            "vendor": "Huawei",
+            "platform": "NE40E",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.16777216"
+        },
+        ".1.3.6.1.4.1.11.2.3.7.11.136": {
+            "name": "hp_comware",
+            "vendor": "Hp",
+            "platform": "COMWARE",
+            "serial_no": "1.3.6.1.2.1.47.1.1.1.1.11.1"
+        },
+        ".1.3.6.1.4.1.25506.11.1.102": {
+            "name": "hp_comware",
+            "vendor": "Hp",
+            "platform": "COMWARE",
+            "serial_no": "1.3.6.1.4.1.25506.2.6.1.2.1.1.2.2"
+        },
+        ".1.3.6.1.4.1.25461.2.3.36": {
+            "name": "paloalto_panos",
+            "vendor": "Paloalto",
+            "platform": "PANOS",
+            "serial_no": "1.3.6.1.4.1.25461.2.1.2.1.3.0"
+        }
     }
 }
+

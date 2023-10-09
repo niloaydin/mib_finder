@@ -3,6 +3,18 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+from flask import Flask, jsonify
+import json
+
+app = Flask(__name__)
+
+with open('mib_dictionary.json', 'r') as file:
+    json_data = json.load(file)
+    print(json_data)
+@app.route("/")
+def get_mibs():
+    return json_data
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
